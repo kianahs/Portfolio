@@ -250,3 +250,7 @@ footer p {
   line-height: 1.6;
   color: #555;
 }
+
+.skills {
+  font-weight: bold;
+}
