@@ -1,4 +1,4 @@
-/* styles.css */
+/* General Styles */
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.6;
@@ -8,6 +8,7 @@ body {
   padding: 0;
 }
 
+/* Header Styles */
 header {
   background-color: #333;
   color: #fff;
@@ -47,6 +48,7 @@ header p {
   margin: 5px 0;
 }
 
+/* Navigation Styles */
 nav {
   display: flex;
   justify-content: space-around;
@@ -65,6 +67,7 @@ nav a:hover {
   background-color: #0033aa;
 }
 
+/* Main Content Styles */
 .main {
   padding: 20px;
 }
@@ -89,6 +92,7 @@ h2 {
   margin-bottom: 15px;
 }
 
+/* List Styles */
 ul {
   list-style-type: none;
   padding: 0;
@@ -98,15 +102,38 @@ ul li {
   margin-bottom: 10px;
 }
 
-.details summary {
+/* Details and Summary Styles */
+details {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+details summary {
   cursor: pointer;
   font-weight: bold;
+  color: #333;
+  font-size: 1rem;
+  padding: 2px;
+  border-radius: 5px;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
-.details ul {
-  margin-left: 20px;
+details summary:hover {
+  color: #0033aa;
+  transform: translateX(5px);
 }
 
+details p,
+details ul {
+  margin: 10px 0 0 20px;
+  line-height: 1.5;
+}
+
+/* Footer Styles */
 footer {
   background-color: #333;
   color: #fff;
@@ -122,4 +149,104 @@ footer .container {
 
 footer p {
   margin: 5px 0;
+}
+
+/* Details and Summary Styles */
+.application-details {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.application-details:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.application-summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.application-summary:hover {
+  color: #0033aa;
+  transform: translateX(5px);
+}
+
+.application-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+.application-list li {
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease, background-color 0.2s ease;
+}
+
+.application-list li:hover {
+  background-color: #f4f4f4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.application-list strong {
+  color: #0033aa;
+  font-size: 1.1rem;
+}
+
+/* Experience Section Styles */
+.experience-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experience-list li {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.experience-list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.experience-list h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #0033aa;
+}
+
+.experience-list .organization {
+  font-weight: bold;
+  color: #333;
+}
+
+.experience-list .duration {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.experience-list .description {
+  margin-top: 10px;
+  line-height: 1.6;
+  color: #555;
 }

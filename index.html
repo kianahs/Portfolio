@@ -17,13 +17,30 @@
           <img src="kiana.JPG" alt="profile picture" />
         </div>
         <h1>Kiana Hadysadegh</h1>
-        <p>AI/CS Engineer | London, UK</p>
+        <p>
+          AI/CS Engineer | London, UK |
+          <a
+            href="https://github.com/kianahs"
+            target="_blank"
+            style="color: white"
+            >GitHub</a
+          >
+          |
+          <a
+            href="https://www.linkedin.com/in/kiana-hadysadegh-a69465253"
+            target="_blank"
+            style="color: white"
+            >LinkedIn</a
+          >
+        </p>
         <nav>
           <a href="#about">About</a>
           <a href="#experience">Experience</a>
           <a href="#education">Education</a>
           <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
+          <a href="#references">References</a>
         </nav>
       </div>
     </header>
@@ -32,63 +49,107 @@
         <div class="container">
           <h2>About Me</h2>
           <p>
-            As an enthusiastic engineer, I have developed strong skills in
-            computer science and AI. I possess experience working with various
-            libraries and programming languages across different projects and
-            through self-learning, which I showcase on GitHub and my portfolio.
+            As an enthusiastic engineer, I have developed a strong foundation in
+            Computer Science and AI through self-learning, internships, and
+            hands-on projects. My passion for problem-solving and challenging
+            myself drives me to explore multiple domains, including backend and
+            frontend development, databases, AI, and computer networks. With
+            experience in building applications, analyzing data, and
+            implementing advanced AI models, I am dedicated to continuous
+            learning and tackling challenging problems to create impactful
+            solutions.
           </p>
         </div>
       </section>
       <section id="experience" class="section">
         <div class="container">
           <h2>Work Experience</h2>
-          <ul>
+          <ul class="experience-list">
             <li>
               <h3>AI Research Intern</h3>
               <p>
-                <strong
-                  >Digital Environment Research Institute, Queen Mary University
-                  of London</strong
-                >
-                (Jan 2024 - Sep 2024)
+                <strong class="organization">
+                  Digital Environment Research Institute, Queen Mary University
+                  of London
+                </strong>
+                <span class="duration">(Jan 2024 - Sep 2024)</span>
               </p>
-              <p>
-                Gained experience in Gaussian mixture models, Gaussian
-                Splatting, and 3D reconstruction under the supervision of Prof.
-                Yuan. Boosted the performance and addressed the challenges of
-                the Gaussian Splatting model using PyTorch and Python.
+              <p class="description">
+                - Gained experience in Gaussian mixture models, Gaussian
+                Splatting, and 3D reconstruction under the supervision of
+                <a
+                  href="https://scholar.google.com/citations?user=htlcuX4AAAAJ&hl=en"
+                  >Prof. Yuan</a
+                >. <br />
+                - Boosted the performance and addressed the challenges of the
+                Gaussian Splatting model using PyTorch and Python.
               </p>
             </li>
             <li>
               <h3>Python Developer - Research Intern</h3>
               <p>
-                <strong
-                  >Pardis IT and Communication Research Institute, Amirkabir
-                  University of Technology</strong
-                >
-                (Sep 2021 - Sep 2022)
+                <strong class="organization">
+                  Pardis IT and Communication Research Institute, Amirkabir
+                  University of Technology
+                </strong>
+                <span class="duration">(Sep 2021 - Sep 2022)</span>
               </p>
-              <p>
-                Developed the Article Recommender Project under the supervision
-                of Prof. Saeedeh Momtazi. Gained experience in information
-                retrieval models (tf-idf), artificial intelligence, and Python.
+              <p class="description">
+                - Developed the
+                <a href="https://github.com/kianahs/Article-Recommender"
+                  >Article Recommender Project
+                </a>
+                under the supervision of
+                <a
+                  href="https://scholar.google.nl/citations?user=N-WqXykAAAAJ&hl=en"
+                  >Prof. Saeedeh Momtazi</a
+                >. <br />
+                - Implemented a recommender system to suggest Amirkabir Journal
+                articles to other researchers in related fields. <br />
+                - Gained experience in information retrieval models (tf-idf),
+                artificial intelligence, and Python.
               </p>
             </li>
             <li>
               <h3>Web Developer - Intern</h3>
               <p>
-                <strong>Andishe Fartak Amirkabir (Atrovan)</strong> (June 2021 -
-                Sep 2021)
+                <strong class="organization"
+                  >Andishe Fartak Amirkabir (Atrovan)</strong
+                >
+                <span class="duration">(June 2021 - Sep 2021)</span>
               </p>
+              <p class="description">
+                - Contributed to the front-end development of the
+                <a href="https://github.com/kianahs/Atrometer"
+                  >Atrometer Project</a
+                >
+                (the Atrovan company website) <br />
+                - Used React JS, Redux, Bootstrap, Tailwind CSS, and JavaScript
+                in the implementation.
+              </p>
+            </li>
+            <li>
+              <h3>
+                Teaching Assistant - Algorithm Design, Microprocessor and
+                Assembly Language
+              </h3>
               <p>
-                Contributed to the front-end development of the Atrometer
-                Project (the Atrovan company website) using React JS, Redux,
-                Bootstrap, and Tailwind CSS.
+                <strong class="organization"
+                  >Amirkabir University of Technology, Computer Engineering
+                  Department</strong
+                >
+                <span class="duration">(April 2021 - Jan 2021)</span>
+              </p>
+              <p class="description">
+                - Designed and marked courseworks and quizzes <br />
+                - Clarified confusions about concepts and solved questions for
+                students
               </p>
             </li>
           </ul>
         </div>
       </section>
+
       <section id="education" class="section">
         <div class="container">
           <h2>Education</h2>
@@ -99,11 +160,42 @@
                 <strong>Queen Mary University of London</strong> (Sep 2023 –
                 2024)
               </p>
-              <p>
-                Thesis: Reducing Cameras in Dynamic 3D Gaussians | Supervisor:
-                Prof. Yuan
-              </p>
-              <p>Skills: PyTorch, Python, Gaussian mixture models</p>
+              <details>
+                <summary>Thesis</summary>
+                <p>
+                  Reducing Views in Dynamic 3D Gaussians <br />
+                  Supervisor:
+                  <a
+                    href="https://scholar.google.com/citations?user=htlcuX4AAAAJ&hl=en"
+                    >Prof. Yuan</a
+                  >
+                  <br />
+                  <br />
+
+                  - Gained experience with Guassian mixture models, Gaussian
+                  Splatting, Dynamic Gaussian, and 3D reconstruction. <br />
+                  - Designed new loss functions using depth information to
+                  improve the model predictions.<br />
+                  - Implemented an evaluation module to test the performance of
+                  the model.<br />
+                  - Reduced the number of inputs per timestep and memory usage
+                  by up to 50 %.<br />
+                  - Addressed the challenges of occlusion and new scene objects.
+                  <br />
+                  <br />
+                  Skills: PyTorch, Python, Gaussian mixture models, 3D
+                  reconstruction
+                </p>
+              </details>
+              <details>
+                <summary>Course Highlights</summary>
+                <ul>
+                  <li>Artificial Intelligence</li>
+                  <li>Machine Learning</li>
+                  <li>Deep Learning</li>
+                  <li>Applied Statistics</li>
+                </ul>
+              </details>
             </li>
             <li>
               <h3>
@@ -117,135 +209,650 @@
                 >
                 (Sep 2018 - June 2023)
               </p>
-              <p>
-                Thesis: Object detection in non-ideal weather conditions in
-                autonomous vehicles | Supervisor: Prof. Rahmati
-              </p>
-              <p>Skills: PyTorch, Python, GANs, Object detection</p>
+              <details>
+                <summary>Thesis</summary>
+                <p>
+                  Object detection in non-ideal weather conditions in autonomous
+                  vehicles <br />
+                  Supervisor:
+                  <a
+                    href="https://scholar.google.com/citations?user=EYk7M80AAAAJ&hl=en"
+                    >Prof. Rahmati</a
+                  >
+                  <br />
+                  <br />
+                  - Gained experience with Generative adversarial networks,
+                  variational autoencoders, and YOLO <br />
+                  - Created a new dataset for autonomous driving scenes in
+                  adverse weather conditions using CycleGAN <br />
+                  - Improved the performance of the YOLOv7 object detection
+                  model <br />
+                  - Tuning the lambda hyperparameters <br />
+                  - Used popular and high quality datasets such as CADC,
+                  nuImages, and RaidaR to provide different domains and weather
+                  conditions in training GANs
+
+                  <br />
+                  <br />
+                  Skills: PyTorch, Python, Generative Adversarial Networks,
+                  Variational Autoencoders, YOLO
+                </p>
+              </details>
+              <details>
+                <summary>Course Highlights</summary>
+                <ul>
+                  <li>Algorithm Design</li>
+                  <li>Data Structure and Algorithms</li>
+                  <li>Web Programming</li>
+                  <li>Principles of Database Design</li>
+                  <li>Principles of Cloud Computing</li>
+                  <li>Fundamentals of Internet of Things</li>
+                  <li>Advanced Programming in Java</li>
+                  <li>Fundamentals of Computer and Programming in C</li>
+                  <li>Mobile Programming</li>
+                  <li>Operating Systems</li>
+                  <li>Software Engineering</li>
+                  <li>Computer Networks</li>
+                  <li>Information Retrieval</li>
+                  <li>Data Mining</li>
+                  <li>Signals and Systems</li>
+                  <li>
+                    Fundamentals and Applications of Artificial Intelligence
+                  </li>
+                  <li>Principles of Computational Intelligence</li>
+                </ul>
+              </details>
             </li>
           </ul>
         </div>
       </section>
+
       <section id="projects" class="section">
         <div class="container">
           <h2>Projects</h2>
 
-          <details>
-            <summary>Deep Learning</summary>
-            <ul>
+          <details class="application-details">
+            <summary class="application-summary">AI Projects</summary>
+            <ul class="application-list">
               <li>
-                <strong>Deep Learning Mini Project:</strong> Trained GoogLeNet,
-                VGG16, and Resnet18 on various datasets (MNIST, CIFAR10,
-                CIFAR100) with different settings using PyTorch and Python for
-                image classification tasks (50 different experiments). Applied
-                Data Augmentation techniques, learning rate schedulers, and
-                different optimizers. Analyzed the influence of each
-                hyperparameter and technique on classification results.
+                <a href="https://github.com/kianahs/DeepLearning-mini-project"
+                  ><strong>Deep Learning Mini Project:</strong></a
+                ><br />
+                - Trained GoogLeNet, VGG16, and Resnet18 on various datasets
+                (MNIST, CIFAR10, CIFAR100) with different settings using PyTorch
+                and Python for image classification tasks (50 different
+                experiments).<br />
+                - Applied Data Augmentation techniques, learning rate
+                schedulers, and different optimizers.<br />
+                - Analyzed the influence of each hyperparameter and technique on
+                classification results.
               </li>
               <li>
-                <strong>Deep Learning Literature Reviews:</strong> Critical
-                analysis of vision transformers, transformers, diffusion models,
-                and latent diffusion models.
+                <a
+                  href="https://github.com/kianahs/Deep-Learning-literature-reviews"
+                  ><strong>Deep Learning Literature Reviews:</strong></a
+                ><br />
+                - Critical analysis of vision transformers, transformers,
+                diffusion models, and latent diffusion models.
               </li>
-            </ul>
-          </details>
+              <li>
+                <a href="https://github.com/kianahs/Machine-Learning"
+                  ><strong>Machine Learning:</strong></a
+                ><br />
+                - Linear Regression: Implemented linear regression on the
+                diabetes dataset to make predictions and observe the effect of
+                each feature on the predicted variable.<br />
+                - Logistic Regression & Multiclass Classification: Developed
+                logistic regression and multiclass classification on the iris
+                dataset using Python and PyTorch.<br />
+                - Neural Networks: Implemented neural networks using PyTorch and
+                classified the iris dataset.<br />
+                - Gaussian Mixture Models: Trained a mixture of Gaussian models
+                to cluster and classify Peterson and Barney’s dataset of vowel
+                formant frequencies using PyTorch.
+              </li>
+              <li>
+                <a href="https://github.com/kianahs/AI_Search_Genetic-algorithm"
+                  ><strong>AI_Search_Genetic-algorithm:</strong></a
+                ><br />
+                - Implemented uninformed and heuristic search algorithms for the
+                London tube map routes using Python.<br />
+                - Developed a genetic algorithm from scratch to find a password.
+              </li>
+              <li>
+                <a href="https://github.com/kianahs/XGBoost-Diabet-Classifier"
+                  ><strong>XGBoost Diabet Classifier:</strong></a
+                ><br />
+                - Classified diabetes data using pandas, XGBoost library, and
+                Python. <br />- Preprocessed the diabetes data (sanitise fields,
+                aggregate records, combine data, normalisation, one-hot
+                encoding). <br />
+                - Trained and tested XGBoost Classifier <br />
+                - Tuned hyperparameters <br />
+                - Analyzed the influence of each feature (column) on the models
+                performance
+              </li>
+              <li>
+                <a href="https://github.com/kianahs/AI_CNN"
+                  ><strong>AI_CNN:</strong></a
+                ><br />
+                - Achieved 90% accuracy on the classification of the
+                fashion-mnist dataset using PyTorch. <br />
+                - Used PyTorch to implement Convolutional Neural networks.
+              </li>
+              <li>
+                <a href="https://github.com/kianahs/Computer-vision"
+                  ><strong>Computer Vision Tasks:</strong></a
+                ><br />
+                - Collection of projects for diverse computer vision tasks such
+                as image rotation and skewness correction, convolution,
+                histogram creation, texture classification (LBP classifier), and
+                object counting using Python.
+              </li>
+              <li>
+                <a href="https://github.com/kianahs/Artificial-nueral-network"
+                  ><strong>Artificial Neural Network:</strong></a
+                ><br />
+                - Multi-layer perceptron implementation from scratch using
+                Python.
+              </li>
 
-          <details>
-            <summary>Machine Learning</summary>
-            <ul>
               <li>
-                <strong>Linear Regression:</strong> Implemented linear
-                regression on the diabetes dataset to make predictions and
-                observe the effect of each feature on the predicted variable.
-              </li>
-              <li>
-                <strong
-                  >Logistic Regression & Multiclass Classification:</strong
-                >
-                Developed logistic regression and multiclass classification on
-                the iris dataset using Python and PyTorch.
-              </li>
-              <li>
-                <strong>Neural Networks:</strong> Implemented neural networks
-                using PyTorch and classified the iris dataset.
-              </li>
-              <li>
-                <strong>Gaussian Mixture Models:</strong> Trained a mixture of
-                Gaussian models to cluster and classify Peterson and Barney’s
-                dataset of vowel formant frequencies using PyTorch.
-              </li>
-            </ul>
-          </details>
-
-          <details>
-            <summary>AI</summary>
-            <ul>
-              <li>
-                <strong>AI_Search_Genetic-algorithm:</strong> Implemented
-                uninformed and heuristic search algorithms for the London tube
-                map routes using Python. Developed a genetic algorithm from
-                scratch to find a password.
-              </li>
-              <li>
-                <strong>AI_CNN:</strong> Achieved 90% accuracy on the
-                classification of the fashion-mnist dataset using PyTorch.
-              </li>
-            </ul>
-          </details>
-
-          <details>
-            <summary>Computer Vision</summary>
-            <ul>
-              <li>
-                <strong>Computer Vision Tasks:</strong> Collection of projects
-                for diverse computer vision tasks such as image rotation and
-                skewness correction, convolution, histogram creation, texture
-                classification (LBP classifier), and object counting using
+                <a href="https://github.com/kianahs/Fuzzy-C-means-Project"
+                  ><strong>Fuzzy C-means:</strong></a
+                ><br />
+                - The fuzzy version of the K-means clustering algorithm using
                 Python.
               </li>
               <li>
-                <strong>Artificial Neural Network:</strong> Multi-layer
-                perceptron implementation from scratch using Python.
+                <strong>Evolutionary games:</strong><br />
+                - Implementation AI-Control of a game with the evolutionary
+                algorithm in choosing players using Python.
               </li>
             </ul>
           </details>
 
-          <details>
-            <summary>Web Development</summary>
-            <ul>
+          <details class="application-details">
+            <summary class="application-summary">Software Applications</summary>
+            <ul class="application-list">
               <li>
-                <strong>Movies Festival:</strong> Developed a website with a
-                database, backend, and frontend on cloud hosting providers using
-                Express.js.
+                <a href="https://github.com/kianahs/foofle-data-base-project"
+                  ><strong>Foofle:</strong></a
+                >
+                <br />
+                - Created an email service application using SQL and Java.
+                <br />- Provided UI in Java and functionalities in SQL. <br />-
+                Considered transactions, triggers, error handling, and
+                encapsulation (stored procedures) while avoiding redundancy in
+                database design and development.
               </li>
               <li>
-                <strong>Backend Service:</strong> Backend program using Python
-                Flask and MySQL to manage a movie database and authenticate
-                users.
+                <a href="https://github.com/kianahs/Jpotify-Java-Project"
+                  ><strong>Jpotify:</strong></a
+                ><br />
+                - Simulated the Spotify application on a local device using
+                Java. <br />- Used OOP and encapsulation principles in design.
+                <br />- Gained socket programming experience.
+              </li>
+
+              <li>
+                <a href="https://github.com/kianahs/Movies-Festival"
+                  ><strong>Movies Festival:</strong></a
+                ><br />
+                - Developed a website and brought its database, backend, and
+                frontend on cloud hosting providers (Express.js).
+                <br />- Used some cloud services in the application like
+                speech-to-text, and languageTranslator.
               </li>
               <li>
-                <strong>Randeman App:</strong> Simulated Microsoft project
-                scheduling algorithms in an Android app using Kotlin and JetPack
-                Compose.
+                <a href="https://github.com/kianahs/Backend-Service"
+                  ><strong>Backend Service:</strong></a
+                >
+                <br />
+                - Developed a backend service using Python Flask and MySQL to
+                access movies database and authenticate users.
+              </li>
+              <li>
+                <a
+                  href="https://github.com/kianahs/Information-Retrieval/tree/master"
+                  ><strong>Information Retrieval:</strong></a
+                >
+                <br />
+                - Implemented a search engine based on information retrieval
+                algorithms such as Positional index, Boolean retrieval, and
+                tf-idf using Python. <br />- Used text preprocessing methods to
+                boost the search engine performance.
+              </li>
+              <li>
+                <a href="https://github.com/kianahs/Github-simulation/tree/main"
+                  ><strong>Github:</strong></a
+                >
+                <br />
+                - Simulation of GitHub functionalities (push, pull, commit,
+                login, contributor, repository creation) on a local device using
+                Python. <br />- Used socket programming to handle multiple
+                clients with a server.
+              </li>
+              <li>
+                <a href="https://github.com/kianahs/Randeman-App"
+                  ><strong>Randeman App:</strong></a
+                >
+                <br />
+                - Microsoft project scheduling algorithm simulation for resource
+                management in an Android app using Kotlin.
+                <br />- Using JetPack Compose to implement UI.
+              </li>
+
+              <li>
+                <a href="https://github.com/kianahs/Atrometer"
+                  ><strong>Atrometer:</strong></a
+                >
+                <br />
+                - Developed a Website for representing some IoT products and
+                offering some solutions based on customer needs. <br />
+                -It is a good example of combining React.js components with
+                Tailwind CSS and showing how to create reuseable components.
+                <br />
+                - Tailwind CSS automatically removes all unused CSS when
+                building for production, which means your final CSS bundle is
+                the smallest it could possibly be.
+              </li>
+
+              <li>
+                <a href="https://github.com/kianahs/Article-Recommender"
+                  ><strong>Article Recommender App:</strong></a
+                >
+                <br />
+                - Developed the Article Recommender Project under the
+                supervision of Prof.Saeedeh Momtazi.
+                <br />- Implemented a recommender system to suggest Amirkabir
+                Journal articles to other researchers in related fields. <br />-
+                Gained experience in information retrieval models (tf-idf),
+                artificial intelligence, and Python.
+              </li>
+              <li>
+                <a
+                  href="https://github.com/kianahs/Cache-simulation-Java-Project/tree/main"
+                  ><strong>Cache:</strong></a
+                >
+                <br />
+                - Simulation of the functionalities of cache using Java. <br />
+                - Considered OOP and encapsulation in the implementation.
+              </li>
+              <li>
+                <a href="https://github.com/kianahs/Automata-Conversion-Project"
+                  ><strong>Automata-Conversion:</strong></a
+                >
+                <br />
+                - Automata conversion from NFAλ to DFA using Java. <br />-
+                Considered OOP and encapsulation principles in the
+                implementation.
+              </li>
+
+              <li>
+                <a href="https://github.com/kianahs/ROCKSDB-Project"
+                  ><strong>ROCKSDB-Project:</strong></a
+                >
+                <br />
+                - A small project to connect to a database management system
+                called RocksDB, store, and retrieve data using Java.
+              </li>
+              <li>
+                <a href="https://github.com/kianahs/Empire-C-Project"
+                  ><strong>Empire C Game:</strong></a
+                >
+                <br />
+                - A non-graphical strategic game using C.
+              </li>
+            </ul>
+          </details>
+          <details class="application-details">
+            <summary class="application-summary">Database Projects</summary>
+            <ul class="application-list">
+              <li>
+                <a href="https://github.com/kianahs/foofle-data-base-project"
+                  ><strong>Foofle:</strong></a
+                >
+                <br />
+                - Created an email service application using SQL and Java.
+                <br />- Provided UI in Java and functionalities in SQL. <br />-
+                Considered transactions, triggers, error handling, and
+                encapsulation (stored procedures) while avoiding redundancy in
+                database design and development.
+              </li>
+              <li>
+                <a href="https://github.com/kianahs/Movies-Festival"
+                  ><strong>Movies Festival:</strong></a
+                ><br />
+                - Developed a website and brought its database, backend, and
+                frontend on cloud hosting providers (Express.js).
+                <br />- Used some cloud services in the application like
+                speech-to-text, and languageTranslator.
+              </li>
+              <li>
+                <a href="https://github.com/kianahs/ROCKSDB-Project"
+                  ><strong>ROCKSDB-Project:</strong></a
+                >
+                <br />
+                - A small project to connect to a database management system
+                called RocksDB, store, and retrieve data using Java.
+              </li>
+              <li>
+                <a href="https://github.com/kianahs/Backend-Service"
+                  ><strong>Backend Service:</strong></a
+                >
+                <br />
+                - Developed a backend service using Python Flask and MySQL to
+                access movies database and authenticate users.
               </li>
             </ul>
           </details>
 
-          <details>
-            <summary>Applications</summary>
-            <ul>
+          <details class="application-details">
+            <summary class="application-summary">Android Projects</summary>
+            <ul class="application-list">
               <li>
-                <strong>Foofle:</strong> Email service application using SQL and
-                Java. Implemented transactions, triggers, error handling, and
-                stored procedures.
-              </li>
-              <li>
-                <strong>Jpotify:</strong> Simulated the Spotify application on a
-                local device using Java. Used OOP principles and gained socket
-                programming experience.
+                <a href="https://github.com/kianahs/Randeman-App"
+                  ><strong>Randeman App:</strong></a
+                >
+                <br />
+                - Microsoft project scheduling algorithm simulation for resource
+                management in an Android app using Kotlin.
+                <br />- Using JetPack Compose to implement UI.
               </li>
             </ul>
           </details>
+          <details class="application-details">
+            <summary class="application-summary">OS Projects</summary>
+            <ul class="application-list">
+              <li>
+                <a href="https://github.com/kianahs/OS-project"
+                  ><strong>XV6 OS Project:</strong></a
+                >
+                <br />
+                - Implemented some new system calls, scheduling algorithms, time
+                measurement algorithms, and test on XV6 operating system using
+                C.
+              </li>
+            </ul>
+          </details>
+          <details class="application-details">
+            <summary class="application-summary">
+              Computer Networks Projects
+            </summary>
+            <ul class="application-list">
+              <li>
+                <a href="https://github.com/kianahs/DHCP_Project/tree/main"
+                  ><strong>DHCP project:</strong></a
+                >
+                <br />
+                - Simulation of DHCP protocol performance using Python. <br />
+                - Socket Programming experience to handle multiple requests.
+                <br />
+                - Considered OOP and encapsulation in the implementation.
+              </li>
+            </ul>
+          </details>
+          <details class="application-details">
+            <summary class="application-summary">IOT Projects</summary>
+            <ul class="application-list">
+              <li>
+                <a href="https://github.com/kianahs/IOT-Apps/tree/main"
+                  ><strong>IOT-Apps:</strong></a
+                >
+                <br />
+                - Collection of some IOT applications using C++ and Python:
+                <br />
+                <br />
+
+                -
+                <a
+                  href="https://github.com/kianahs/IOT-Apps/tree/main/IOT/Task%201"
+                  >Task 1</a
+                >:
+                <p>
+                  Implemented line detector, smart highway lighting, smart
+                  light, and smart door using C++.
+                </p>
+                <br />
+                <br />
+                -
+                <a
+                  href="https://github.com/kianahs/IOT-Apps/tree/main/IOT/Task%202"
+                  >Task 2</a
+                >:
+                <p>
+                  Created Wi-Fi Scanner, Access Point, ESP8266 Web Server for
+                  Movie Selection with RFID, Servo Motor Control via Web
+                  Interface, Ultrasonic Distance Sensor with Web Interface, and
+                  Python VLC Media Control with Serial commands connector using
+                  C++ and Python.
+                </p>
+                <br />
+                <br />
+                -
+                <a
+                  href="https://github.com/kianahs/IOT-Apps/tree/main/IOT/Task%204/code"
+                  >Task 4</a
+                >:
+                <p>
+                  This application is an IoT-based smart office automation
+                  system that integrates hardware and software to manage access
+                  control, lighting, and environmental conditions. It uses an
+                  ESP8266 microcontroller to connect to WiFi and an MQTT broker
+                  for real-time communication. The system authenticates users
+                  via RFID cards to control door access, adjusts room lighting
+                  based on ambient light and user-defined schedules, and
+                  monitors room activity with an ultrasonic sensor. A Python
+                  Flask server provides APIs for user and admin operations, such
+                  as login, registration, and light control. This solution
+                  enables energy-efficient and secure office management by
+                  combining hardware components like servos, LEDs, and sensors
+                  with cloud-based control via MQTT and RESTful APIs.
+                </p>
+                <br />
+
+                <p>
+                  * Used MQTT for publishing and subscribing to topics like
+                  "smartOffice" and controlling office devices. <br />
+                  * Published commands to MQTT topics to adjust brightness, turn
+                  lights on/off, and perform other actions like Opens/closes a
+                  door based on RFID authentication and time constraints. <br />
+                  * Python Flask provides REST APIs for user and admin
+                  operations like login, registration, and controlling light
+                  settings.
+                </p>
+              </li>
+            </ul>
+          </details>
+          <details class="application-details">
+            <summary class="application-summary">Frontend Projects</summary>
+            <ul class="application-list">
+              <li>
+                <a href="https://github.com/kianahs/Atrometer"
+                  ><strong>Atrometer:</strong></a
+                >
+                <br />
+                - Developed a Website for representing some IoT products and
+                offering some solutions based on customer needs. <br />
+                -It is a good example of combining React.js components with
+                Tailwind CSS and showing how to create reuseable components.
+                <br />
+                - Tailwind CSS automatically removes all unused CSS when
+                building for production, which means your final CSS bundle is
+                the smallest it could possibly be.
+              </li>
+              <li>
+                <a href="https://github.com/kianahs/Jpotify-Java-Project"
+                  ><strong>Jpotify:</strong></a
+                ><br />
+                - Simulated the Spotify application on a local device using
+                Java. <br />- Used OOP and encapsulation principles in design.
+                <br />- Gained socket programming experience.
+              </li>
+            </ul>
+          </details>
+          <details class="application-details">
+            <summary class="application-summary">Hardware Applications</summary>
+            <ul class="application-list">
+              <li>
+                <a href="https://github.com/kianahs/SmartWatch-Verilog-project"
+                  ><strong>SmartWatch:</strong></a
+                >
+                <br />
+                - Simulation the smartwatch performance to control health
+                factors like blood pressure, heartbeat, blood abnormality
+                detector, falling detector, and tempreture using Verilog. <br />
+                - Implemented Adder (4bit, 8bit), Comparator(4bit, 8bit), Full
+                adder, Half adder, Multiplier(2x2 - 4x4), and MUX (4 to 1 - 2 to
+                1).
+              </li>
+            </ul>
+          </details>
+        </div>
+      </section>
+      <section id="skills" class="section">
+        <div class="container">
+          <h2>Skills</h2>
+          <ul>
+            <li>
+              <details>
+                <summary>Programming Languages</summary>
+                <ul>
+                  <li>Python</li>
+                  <li>Java</li>
+                  <li>C</li>
+                  <li>C++</li>
+                  <li>JavaScript</li>
+                  <li>Kotlin</li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Backend Development</summary>
+                <ul>
+                  <li>Flask</li>
+                  <li>Node.js</li>
+                  <li>Express.js</li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Python Libraries</summary>
+                <ul>
+                  <li>NumPy</li>
+                  <li>pandas</li>
+                  <li>Matplotlib</li>
+                  <li>PyTorch</li>
+                  <li>PySpark</li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Database Systems</summary>
+                <ul>
+                  <li>MySQL</li>
+                  <li>MariaDB</li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>AI</summary>
+                <ul>
+                  <li>Transformers</li>
+                  <li>Diffusion Models</li>
+                  <li>GMMs</li>
+                  <li>GANs</li>
+                  <li>LangChain</li>
+                  <li>Bayesian Networks</li>
+                  <li>Neural Networks</li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Web Development</summary>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>React.js</li>
+                  <li>Redux</li>
+                  <li>React Query</li>
+                  <li>TypeScript</li>
+                  <li>Tailwind CSS</li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Version Control</summary>
+                <ul>
+                  <li>Git</li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Operating Systems</summary>
+                <ul>
+                  <li>Linux</li>
+                  <li>Windows</li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Development Tools</summary>
+                <ul>
+                  <li>Jetpack Compose</li>
+                  <li>Xampp</li>
+                  <li>Jenkins</li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Containerization and Orchestration</summary>
+                <ul>
+                  <li>Docker</li>
+                  <li>Kubernetes</li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Big Data and Distributed Systems</summary>
+                <ul>
+                  <li>Apache Hadoop</li>
+                  <li>PySpark</li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Network Tools</summary>
+                <ul>
+                  <li>Wireshark</li>
+                  <li>Nmap</li>
+                  <li>GNS3</li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Network Protocols</summary>
+                <ul>
+                  <li>TCP/IP</li>
+                  <li>UDP</li>
+                  <li>DHCP</li>
+                </ul>
+              </details>
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -256,13 +863,10 @@
             Email:
             <a href="mailto:hadysadegh@gmail.com">hadysadegh@gmail.com</a>
           </p>
-          <p>Phone: +44 7818 476029</p>
           <p>
-            GitHub:
             <a href="https://github.com/kianahs" target="_blank">GitHub</a>
           </p>
           <p>
-            LinkedIn:
             <a
               href="https://www.linkedin.com/in/kiana-hadysadegh-a69465253"
               target="_blank"
