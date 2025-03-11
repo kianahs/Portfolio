@@ -1,3 +1,11 @@
+.section {
+  display: none; /* Hide all sections initially */
+}
+
+.section.active {
+  display: block; /* Show only the active section */
+}
+
 /* General Styles */
 body {
   font-family: "Roboto", sans-serif;
